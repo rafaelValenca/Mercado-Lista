@@ -13,7 +13,23 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Lista de compras</h1>
+    <section class="section-center">
+      <!-- form -->
+      <form class="grocery-form">
+        <p class="alert"></p>
+        <h3>Lista de compras</h3>
+        <div class="form-control">
+          <input type="text" id="grocery" placeholder="Ex: carne">
+          <button type="submit" class="submit-btn">Salvar</button>
+        </div>
+      </form>
+      <!-- list -->
+      <div class="grocery-container">
+        <div class="grocery-list"></div>
+        <!-- button -->
+        <button type="button" class="clear-btn">limpar items</button>
+      </div>
+    </section>
     <!-- javascript -->
     <script src="app.js"></script>
   </body>
